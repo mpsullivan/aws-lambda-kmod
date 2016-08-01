@@ -1,0 +1,5 @@
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule">
+    <kbase name="aws-lambda" packages="ws.salient.aws.lambda" eventProcessingMode="stream">
+        <ksession name="session" type="stateful" default="true"/>
+    </kbase>
+</kmodule>
